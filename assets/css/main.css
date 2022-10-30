@@ -1,0 +1,236 @@
+body {
+  background-color: #fbf8f3;
+}
+/* ===== Navbar ===== */
+.sec-1-bg {
+  background-color: #fbf8f3;
+}
+.sec-2-bg {
+  background-color: white;
+}
+.sec-3-bg {
+  background-color: #d7f5f5;
+}
+.sec-4-bg {
+  background-color: white;
+}
+header .container nav .navbar-brand {
+  color: #3180f5;
+  font-style: italic;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+header .container nav ul li a {
+  color: #595959;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding: 12px 16px;
+  margin-right: 5px;
+}
+header .container nav ul li a.nav-link.btn {
+  color: white;
+  background-color: #1da1f2;
+  font-weight: 600;
+  margin-right: 0px;
+}
+/* ========== Main ========== */
+/* ===== Section 1 ===== */
+main .section-1 {
+  background-color: #fbf8f3;
+}
+main .section-1 .row h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+main .section-1 .row p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #737373;
+}
+main .section-1 .row a.btn-1 {
+  color: white;
+  background-color: #1da1f2;
+  font-weight: 600;
+  margin-right: 0px;
+}
+main .section-1 .row a.btn-2 {
+  color: #1f7898;
+  font-weight: 600;
+  margin-right: 0px;
+}
+main .section-1 .row .users {
+  display: block;
+  position: relative;
+  height: 50px;
+}
+main .section-1 .row .users img {
+  position: absolute;
+}
+/* ##### User Avatars Position ##### */
+main .section-1 .row .users .user-9 {
+  left: 0;
+}
+main .section-1 .row .users .user-8 {
+  left: 20px;
+}
+main .section-1 .row .users .user-7 {
+  left: 40px;
+}
+main .section-1 .row .users .user-6 {
+  left: 60px;
+}
+main .section-1 .row .users .user-5 {
+  left: 80px;
+}
+main .section-1 .row .users .user-4 {
+  left: 100px;
+}
+main .section-1 .row .users .user-3 {
+  left: 120px;
+}
+main .section-1 .row .users .user-2 {
+  left: 140px;
+}
+main .section-1 .row .users .user-1 {
+  left: 160px;
+}
+/* ##### User Avatars Position ##### */
+main .section-1 .row p:has(span.num) {
+  padding-right: 120px;
+}
+main .section-1 .row p span.num {
+  color: #1f7898;
+  font-weight: 800;
+}
+/* ===== Section 2 ===== */
+main .section-2 {
+  background-color: white;
+}
+main .section-2 .row h2 {
+  color: black;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+main .section-2 .row .col-lg-6 .col-12 {
+  border: 2px solid #7373738c;
+  border-radius: 5px;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+  min-height: 220px;
+}
+main .section-2 .row .col-lg-6 .col-12 span i {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+main .section-2 .row .col-lg-6 .col-12 h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+main .section-2 .row .col-lg-6 .col-12 p {
+  color: #737373;
+}
+/* ===== Section 3 ===== */
+main .section-3 {
+  background-color: #d7f5f5;
+}
+main .section-3 .container .row h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+main .section-3 .container .row .col-lg-4 .col-12 {
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+main .section-3 .container .row .col-lg-4 .col-12 h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+main .section-3 .container .row .col-lg-4 .col-12 p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #737373d5;
+}
+main .section-3 .container .row .col-lg-4 .col-12 .col-8 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #737373;
+}
+main .section-3 .container .row .col-lg-4 .col-12 .col-12 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #737373d5;
+}
+/* ===== Section 4 ===== */
+main .section-4 {
+  background-color: white;
+}
+main .section-4 .container .row .section-4-text h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+main .section-4 .container .row .section-4-text p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #737373;
+}
+main .section-4 .container .small-card .col-lg-6 {
+  border: 2px solid #ffad23;
+  background-color: #fbf8f3;
+  border-radius: 5px;
+  padding: 40px 50px 20px;
+}
+main .section-4 .container .small-card .col-lg-6 p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #737373;
+}
+main .section-4 .container .small-card .col-lg-6 p.p-one {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+main .section-4 .container .small-card .col-lg-6 p span {
+  color: black;
+  font-size: 50px;
+}
+.dropdown-divider {
+  border-color: #73737391;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+main .section-4 .container .small-card .col-lg-6 .text-center a.btn {
+  color: white;
+  background-color: #1da1f2;
+  font-weight: 600;
+  padding: 10px 16px;
+  margin-right: 0px;
+}
+/* ===== footer ===== */
+footer {
+  background-color: #d7f5f5;
+}
+footer .container .col-6 a {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-left: 10px;
+}
+footer .container .col-6:not(:has(img)) a {
+  color: #3180f5;
+  font-style: italic;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+/* ===== Extras ===== */
+.pt-10 {
+  padding-top: 100px;
+}
+@media (max-width: 576px) {
+  main .section-1 .row p:has(span.num) {
+    padding-right: 0px;
+  }
+}
